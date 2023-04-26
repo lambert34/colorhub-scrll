@@ -9,3 +9,13 @@
     --color-header: #f4efec;
     --color-text: #cdc6c3;
 }
+
+@font-face {
+    font-family: raleway-c;
+    src: url(/Color-hub-scroll/fonts/raleway-regular.woff2);
+}
+
+@font-face {
+    font-family: outfit-c;
+    src: url(/Color-hub-scroll/fonts/outfit-regular.woff2);
+}
