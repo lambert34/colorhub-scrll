@@ -5,5 +5,7 @@
 }
 
 :root {
-    --index: calc(1vw+1vh)
+    --index: calc(1vw+1vh);
+    --color-header: #f4efec;
+    --color-text: #cdc6c3;
 }
