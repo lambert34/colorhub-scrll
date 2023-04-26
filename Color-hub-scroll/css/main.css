@@ -19,3 +19,18 @@
     font-family: outfit-c;
     src: url(/Color-hub-scroll/fonts/outfit-regular.woff2);
 }
+
+body {
+    background-image: url(/Color-hub-scroll/img/bg.jpg);
+    background-size: 50%;
+    color: #fafafa;
+    font-family: raleway-c;
+    overflow: hidden;
+}
+
+.hero {
+    width: calc(var(--index) * 36);
+    position: absolute;
+    left: 37vw;
+    top: 9vw;
+}
