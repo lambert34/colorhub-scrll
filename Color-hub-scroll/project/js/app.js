@@ -13,7 +13,7 @@ gsap.fromTo('.hero-section', { opacity: 1}, {
     scrollTrigger: {
         trigger: '.hero-section',
         start: 'center',
-
+        end: 'bottom',
         scrub: true
     }
 })
