@@ -13,7 +13,15 @@ gsap.fromTo('.hero-section', { opacity: 1}, {
     scrollTrigger: {
         trigger: '.hero-section',
         start: 'center',
-        end: 'bottom',
+        end: '820',
+        scrub: true
+    }
+})
+
+gsap.fromTo('.gallery__left .gallery__item', { opacity: 0 }, {
+    opacity: 1,
+    scrollTrigger: {
+        trigger: '.gallery__item',
         scrub: true
     }
 })
