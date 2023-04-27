@@ -25,6 +25,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: outfit-c;
 }
 
+.content, .hero, .main-header, .gallery > * {
+    will-change: transform;
+}
+
 body {
     background-image: url(/Color-hub-scroll/img/bg.jpg);
     background-size: 50%;
