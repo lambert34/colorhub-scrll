@@ -10,8 +10,11 @@ if (ScrollTrigger.isTouch !==1) {
 
 gsap.fromTo('.hero-section', { opacity: 1}, {
     opacity: 0,
-    ScrollTrigger: {
-        
+    scrollTrigger: {
+        trigger: '.hero-section',
+        start: 'center',
+
+        scrub: true
     }
 })
 
